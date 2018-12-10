@@ -70,6 +70,11 @@ body, header, footer {
 .g-header .m-nav .m-item a {
     display: inline-block;
     height: 100%;
+    border-top: 5px solid transparent;
+}
+
+.g-header .m-nav1 .m-item a:hover {
+    border-top: 5px solid #ffffff;
 }
 
 .g-header .m-nav2 {
@@ -121,7 +126,7 @@ body, header, footer {
 
 .g-main .m-part2 {
     font-size: 18px;
-    padding: 60px 0;
+    padding: 60px 0 30px 0;
 }
 
 .g-main .m-part2 .tlt {
@@ -139,7 +144,7 @@ body, header, footer {
 
 .g-main .m-part3 {
     font-size: 18px;
-    padding: 30px 0;
+    padding: 30px 0 36px 0;
 }
 
 .g-main .m-part3 .m-news {
@@ -220,7 +225,7 @@ body, header, footer {
 }
 
 .g-main .m-part4 {
-    padding: 30px 0;
+    padding: 36px 0 80px 0;
 }
 
 .g-main .m-part4 .m-bg {
@@ -261,5 +266,72 @@ body, header, footer {
 
 .g-footer {
     width: 100%;
+    height: 275px;
+    background: #eeeeee;
+    padding-left: 50%;
+}
+
+.g-footer .g-in {
+    width: 1200px;
+    margin-left: -600px;
+    padding: 40px 0;
+}
+
+.g-footer .g-in .g-info {
+
+}
+
+.g-footer .g-in .g-info .m-opt {
+    width: 168px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.g-footer .g-in .g-info .m-opt > * {
+    display: block;
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 12px;
+}
+
+.g-footer .g-in .g-info .m-opt .title {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+.g-footer .g-in .g-info .m-footlogo {
+    position: absolute;
+    right: -10px;
+    top: 45px;
+    width: 235px;
+}
+
+.g-footer .g-in .g-copy {
+    margin-top: 28px;
+}
+
+.g-footer .g-in .g-copy .m-copy {
+    display: inline-block;
+}
+
+.g-footer .g-in .g-copy .m-copy a {
+    font-size: 14px;
+    color: #555555;
+}
+
+.g-footer .g-in .g-copy .m-copy a + a:before {
+    display: inline-block;
+    content: "|";
+    margin: 0 8px;
+}
+
+.g-footer .g-in .g-copy .copyright {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    font-size: 14px;
+    color: #555555;
 }
 
